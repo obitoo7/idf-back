@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diets",
+  "info": {
+    "singularName": "diet",
+    "pluralName": "diets",
+    "displayName": "diet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

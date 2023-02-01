@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_meta_heads",
+  "info": {
+    "displayName": "head"
+  },
+  "options": {},
+  "attributes": {
+    "lknln": {
+      "type": "richtext"
+    }
+  }
+}
