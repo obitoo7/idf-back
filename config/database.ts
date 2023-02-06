@@ -1,12 +1,12 @@
 export default ({ env }) => ({
   connection: {
-    client: 'postgres',
+    client: 'mysql',
     connection: {
-      host: env('PGHOST', '127.0.0.1'),
-      port: env.int('PGPORT', 5432),
-      database: env('PGDATABASE', 'strapi'),
-      user: env('PGUSER', 'strapi'),
-      password: env('PGPASSWORD', 'password'),
+      host: env('MYSQLHOST', '127.0.0.1'),
+      port: env.int('MYSQLPORT', 5432),
+      database: env('MYSQLDATABASE', 'strapi'),
+      user: env('MYSQLUSER', 'strapi'),
+      password: env('MYSQLPASSWORD', 'password'),
       ssl: env.bool(true),
     },
   },

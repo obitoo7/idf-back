@@ -8,7 +8,6 @@ export default [
         directives: {
           "script-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "https:"],
           "connect-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "blob:"],
-          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           "img-src": [
             "'self'",
             "*.tinymce.com",
@@ -18,7 +17,6 @@ export default [
             "cdn.jsdelivr.net",
             "strapi.io",
             "s3.amazonaws.com",
-            'res.cloudinary.com'
           ],
           "style-src": [
             "'self'",
